@@ -55,7 +55,6 @@ export default function App($target) {
         } else{
             $target.append($main)
         }
-        
     }
 
     const createMainDom = () => {
