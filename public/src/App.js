@@ -26,6 +26,10 @@ export default function App($target) {
         setTodoList(newTodoList)
     }
 
+    const handelClickCheck = (id) =>{
+        const value = state.
+    }
+
     const setTodoList = (todoList) => {
         state = {...state, todoList}
         render()
@@ -55,6 +59,8 @@ export default function App($target) {
         } else{
             $target.append($main)
         }
+
+
     }
 
     const createMainDom = () => {
